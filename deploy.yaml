@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: mymicroservice1
 spec:
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
