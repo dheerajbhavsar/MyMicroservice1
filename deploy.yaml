@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: mymicroservice1-container
-        image: dheerajbhavsar89/mymicroservice1:latest
+        image: dheerajbhavsar89/mymicroservice1:#{Build.BuildId}#
         ports:
         - containerPort: 80
         env:
