@@ -32,7 +32,7 @@ namespace MyMicroService1.Controllers
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)],
-                Message = $"Welcome to Kubectl CI-CD - {DateTime.UtcNow.ToString("G")}"
+                Message = $"Welcome to Kubectl CI-CD2 - {DateTime.UtcNow.ToString("G")}"
             })
             .ToArray();
         }
